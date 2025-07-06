@@ -84,7 +84,7 @@ export default function Home() {
                 : "from-blue-600 to-purple-600"
             }`}
           >
-            Hi, I'm Vikas Patel <span className="wave">👋</span>
+            Hi, I&apos;m Vikas Patel <span className="wave">👋</span>
           </h1>
           <p
             className={`mt-4 text-xl md:text-2xl font-medium ${
@@ -252,4 +252,3 @@ export default function Home() {
     </div>
   );
 }
- 

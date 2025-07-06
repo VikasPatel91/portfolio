@@ -29,7 +29,7 @@ export default function Footer() {
             About Me
           </h3>
           <p className={darkMode ? "text-gray-200" : "text-gray-700"}>
-            I'm a skilled MERN stack developer from{" "}
+            I&apos;m a skilled MERN stack developer from{" "}
             <span
               className={`font-semibold ${
                 darkMode ? "text-purple-300" : "text-purple-600"
