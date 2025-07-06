@@ -105,7 +105,7 @@ export default function Home() {
           }`}
         >
           <p>
-            I'm from{" "}
+            I&apos;m from{" "}
             <span
               className={`font-bold ${
                 darkMode ? "text-blue-400" : "text-blue-600"

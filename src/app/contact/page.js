@@ -64,7 +64,7 @@ export default function Contact() {
               Message Sent Successfully!
             </h3>
             <p className={darkMode ? "text-gray-300" : "text-gray-600"}>
-              I'll get back to you soon.
+              I&apos;ll get back to you soon.
             </p>
             <button
               onClick={() => setIsSubmitted(false)}
@@ -123,7 +123,7 @@ export default function Contact() {
                     ? "dark:bg-gray-700 dark:border-gray-600 dark:text-white"
                     : "border-gray-300 text-gray-900"
                 }`}
-                placeholder="Hello, I'd like to talk about..."
+                placeholder="Hello, I&apos;d like to talk about..."
               />
             </div>
 

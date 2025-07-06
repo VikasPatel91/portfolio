@@ -1,6 +1,6 @@
 "use client";
 import { useDarkMode } from "../contexts/DarkModeContext";
-
+import Image from "next/image";
 export default function ExperienceCards() {
   const { darkMode } = useDarkMode();
 
@@ -93,10 +93,12 @@ export default function ExperienceCards() {
           >
             <div className="flex items-start mb-4">
               <div className="relative w-16 h-16 mr-4">
-                <img
+                <Image
                   src={exp.logo}
                   alt={`${exp.company} logo`}
                   className="w-full h-full object-contain"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div>
