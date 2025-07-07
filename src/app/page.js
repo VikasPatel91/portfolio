@@ -144,7 +144,7 @@ export default function Home() {
           className="mt-10 flex flex-wrap justify-center gap-4"
         >
           <a
-            href="/Vikas_Patel_CV.pdf"
+            href="/vikas_patel_cv.pdf"
             download
             className="flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
           >
