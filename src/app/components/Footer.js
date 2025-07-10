@@ -83,20 +83,21 @@ export default function Footer() {
               { href: "/certificates", label: "Certificates" },
             ].map((link, index) => (
               <li key={index}>
-                <Link
-                  href={link.href}
-                  className={`flex items-center ${
-                    darkMode
-                      ? "text-gray-200 hover:text-white"
-                      : "text-gray-700 hover:text-gray-900"
-                  }`}
-                >
+                <Link href={link.href}>
                   <span
-                    className={`w-2 h-2 rounded-full mr-2 ${
-                      darkMode ? "bg-purple-400" : "bg-purple-600"
+                    className={`flex items-center ${
+                      darkMode
+                        ? "text-gray-200 hover:text-white"
+                        : "text-gray-700 hover:text-gray-900"
                     }`}
-                  ></span>
-                  {link.label}
+                  >
+                    <span
+                      className={`w-2 h-2 rounded-full mr-2 ${
+                        darkMode ? "bg-purple-400" : "bg-purple-600"
+                      }`}
+                    ></span>
+                    {link.label}
+                  </span>
                 </Link>
               </li>
             ))}
