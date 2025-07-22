@@ -11,6 +11,7 @@ const certificates = [
   { src: "java.png", title: "Java Programming" },
   { src: "web.png", title: "Web Development" },
   { src: "software.png", title: "Software Engineering" },
+  { src: "java_spring_boot.png", title: "Java Development" },
 ];
 
 export default function Certificates() {
